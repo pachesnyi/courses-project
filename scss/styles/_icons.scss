@@ -1,0 +1,23 @@
+/*
+ Icon Font Sizes
+ */
+.icon {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.icon-lg {
+  font-size: 56px;
+}
+
+.icon-xl {
+  font-size: 70px;
+}
+
+
+/*
+ Colors
+ */
+.icon-gray-dark {
+  color: rgba($gray-dark, .2);
+}

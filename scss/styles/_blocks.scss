@@ -1,0 +1,10 @@
+/*
+ Blocks
+ */
+
+
+
+.block-lg {
+  max-width: 980px;
+  @include block-center;
+}

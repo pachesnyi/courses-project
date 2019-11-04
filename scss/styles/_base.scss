@@ -1,0 +1,20 @@
+/*
+ Image
+ */
+
+.page {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+  }
+}

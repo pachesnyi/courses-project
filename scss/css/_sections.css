@@ -1,0 +1,14 @@
+/*
+ Sections
+ */
+.section-top-lg {
+  padding-top: 70px;
+}
+
+@media (min-width: 1200px) {
+  .section-top-lg {
+    padding-top: 120px;
+  }
+}
+
+/*# sourceMappingURL=_sections.css.map */

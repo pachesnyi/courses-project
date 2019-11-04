@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.7em;
+  font-family: $font-family-main, sans-serif;
+  color: rgba($gray-dark, .8);
+}
+
+
+h1, h2, h3, h4, h5, h6  { color: $gray-dark; }
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.08em; 
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.25em;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+h5 + p { margin-top: 15px; }
+
+* + .row { margin-top: 30px; }
+
+/*
+ Offsets
+*/
+h2 + p { margin-top: 15px; }
+
+@media (min-width: 1200px) { 
+  h1 {
+    font-size: 111px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h5 {
+      font-size: 24px;
+  }
+
+  * + .row { margin-top: 53px; }
+
+  h2 + p { margin-top: 30px; }
+
+  h5 + p { margin-top: 25px; }
+
+
+}

@@ -1,0 +1,13 @@
+/*
+ Sections
+ */
+.section-lg {
+
+}
+
+.section-top-lg {
+  padding-top: 70px;
+  @media (min-width: 1200px) {
+    padding-top: 120px;
+  }
+}
